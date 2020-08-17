@@ -1,0 +1,167 @@
+body{
+  margin:0;
+}
+.header{
+  display:flex;
+  padding:12px;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.google:hover{
+  cursor:pointer;
+}
+.searchBar{
+  border:1px solid #bdbdbd;
+  border-radius:32px;
+  width:300px;
+  height:28px;
+  padding-left:24px;
+  margin-left:24px;
+  flex:0 0 40%;
+}
+.searchBar:focus{
+  outline:none;
+}
+.searchBar:hover{
+  box-shadow:2px 2px 2px 1px
+  rgba(0, 0, 0, 0.2);
+}
+.righrgroup{
+  dispaly:flex;
+  flex-direction:row;
+}
+.tab{
+  font-size:14px;
+  margin-right:12px;
+  margin-left:12px;
+  color:#616161;
+   }
+.tab:hover{
+  cursor:pointer;
+}
+.tabs{
+  display:flex;
+  padding-left:150px;
+  border-bottom:1px solid #bdbdbd;
+  padding-bottom:8px;
+}
+.searchstatus{
+  color:#616161;
+  padding-left:150px;
+  padding-top:12px;
+  padding-bottom:12px;
+}
+.container{
+  display:flex;
+  padding-left:150px;
+}
+ 
+.searchBlock{
+  width:400px;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin:10px;
+}
+.link{
+  font-size:20px;
+  text-decoration:none;
+  }
+.infoBlock{
+  border: 1px solid #bdbdbd;
+  width:350px;
+  height:700px;
+  border-radius:16px;
+  margin-left:8px;
+  
+}
+
+.titleBlock{
+  display:flex;
+  border-bottom:1px solid #bdbdbd;
+  padding:12px;
+}
+.dot{
+  float:right;
+  color:#424242;
+}
+.title{
+  font-size:30px;
+  }
+.titlelogo{
+  margin-left:auto;
+  margin-right:0px;
+}
+.subtitle{
+  color:#bdbdbd;
+}
+.content{
+  margin:10px;
+  font-size:13px;
+  text-decoration:none;
+  line-height:22px;
+}
+.Title{
+  font-size:20px;
+}
+.Subtitle{
+  font-size:12px;
+  text-decoration:none;
+  color:#bdbdbd;
+  padding:12px;
+}
+.up{
+  display:flex;
+  margin-left:10px;
+ }
+
+.image{
+  margin:5px;
+}
+
+
+.word{
+  margin:19px;
+  display:inline;
+  font-size:13px;
+}
+
+.above{
+  dispaly:flex;
+}
+.nameTitle{
+  font-weight:bold;
+}
+.jump{
+  text-decoration:none;
+  color:#1a237e;
+}
+.Link{
+  color:#bdbdbd;
+  text-decoration:none;
+}
+.word:hover{
+  text-decoration:underline;
+  cursor:pointer;
+}
+.rightgroup{
+  float:right;
+  margin:10px;
+}
+.icon:hover{
+  cursor:pointer;
+}
+.icon{
+background-color:#eeeeee;
+border-radius:25px;
+border:5px solid #eeeeee;
+}
+.button{
+  width:60px;
+  height:25px;
+  background-color:#304ffe;
+  border-radius:4px;
+  border:1px solid #304ffe;
+  cursor:pointer;
+  color:white;
+}
+/*header的距離 login填框框 右邊框框靠右(flex justify) 滑鼠滑到圖片上面有字 蘋果旁的icon一到右邊(貧果和icon綁一個div*/
